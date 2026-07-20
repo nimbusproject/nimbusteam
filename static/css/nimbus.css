@@ -27,7 +27,6 @@ body {
   font-family: var(--font-sans);
   color: var(--color-body);
   background-color: #d6e4f0;
-  background-image: url('/images/background-sky.jpg');
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: scroll;
