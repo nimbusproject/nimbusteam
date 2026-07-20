@@ -33,12 +33,6 @@
       <p>University of Chicago</p>
       <p>Chameleon Infrastructure Lead</p>
     </div>
-    <div class="member">
-      <img src='{{ "images/team/marc-richardson.jpg" | relURL }}' alt="Marc Richardson">
-      <h3><a href="https://www.linkedin.com/in/marcwitasee/" target="_blank" rel="noopener">Marc Richardson</a></h3>
-      <p>University of Chicago</p>
-      <p>Technical Project Manager</p>
-    </div>
   </div>
 </section>
 
@@ -55,6 +49,10 @@
     <div class="alumni">
       <img src='{{ "images/team/adam-cooper.jpg" | relURL }}' alt="Adam Cooper">
       <h3>Adam Cooper</h3>
+    </div>
+    <div class="alumni">
+      <img src='{{ "images/team/marc-richardson.jpg" | relURL }}' alt="Marc Richardson">
+      <h3>Marc Richardson</h3>
     </div>
   </div>
 
@@ -80,50 +78,78 @@
 </section>
 
 <h2>Picture Gallery</h2>
+<p class="gallery-intro">A look back at the people behind Nimbus over the years &mdash; team members, summer students, and the many collaborators we have been lucky to work with. Photos are organized by year, most recent first.</p>
+
+{{/*
+  HOW TO ADD PHOTOS
+  -----------------
+  Photos are grouped by year, newest year first. To add a year, copy an
+  <h3>YEAR</h3> + <div class="gallery-grid"> ... </div> block and place it above the
+  others. To add a photo, drop the image file in static/images/gallery/ and add a
+  <figure> with an <img> (use the "| relURL" filter as below) and a <figcaption>.
+  Captions should name the people shown and note whether they are team members or
+  collaborators, plus the event and date.
+*/}}
+
+<h3>2024</h3>
+<div class="gallery-grid">
+  <figure>
+    <img src='{{ "images/gallery/team-2024.jpeg" | relURL }}' alt="Nimbus team with summer students, 2024">
+    <figcaption>The Nimbus team with summer students, 2024</figcaption>
+  </figure>
+</div>
+
+<h3>2023</h3>
 <div class="gallery-grid">
   <figure>
     <img src='{{ "images/gallery/kate-keahey-panel-2023.jpeg" | relURL }}' alt="Kate Keahey at panel">
-    <figcaption>Kate Keahey, Panel: The future of scientific networking, Monterey Data Conference &ndash; September 2023</figcaption>
+    <figcaption>Kate Keahey (team), Panel: The future of scientific networking, Monterey Data Conference &ndash; September 2023</figcaption>
   </figure>
   <figure>
     <img src='{{ "images/gallery/summer-2023-1.jpeg" | relURL }}' alt="REU 2023 team members">
-    <figcaption>Will Fowler, Alicia Esquivel and Kyle Zheng, REU 2023</figcaption>
+    <figcaption>Will Fowler, Alicia Esquivel, and Kyle Zheng (summer students), REU 2023</figcaption>
   </figure>
   <figure>
     <img src='{{ "images/gallery/summer-2023-2.jpeg" | relURL }}' alt="REU 2023 team members">
-    <figcaption>Will Fowler and Kyle Zheng, REU 2023</figcaption>
+    <figcaption>Will Fowler and Kyle Zheng (summer students), REU 2023</figcaption>
   </figure>
   <figure>
     <img src='{{ "images/gallery/summer-2023-3.jpeg" | relURL }}' alt="Project presentations REU 2023">
-    <figcaption>Kyle Zheng, Project Presentations, REU 2023</figcaption>
+    <figcaption>Kyle Zheng (summer student), Project Presentations, REU 2023</figcaption>
   </figure>
   <figure>
     <img src='{{ "images/gallery/summer-2023-4.jpeg" | relURL }}' alt="Project presentations REU 2023">
-    <figcaption>Will Fowler and Kyle Zheng, Project Presentations, REU 2023</figcaption>
+    <figcaption>Will Fowler and Kyle Zheng (summer students), Project Presentations, REU 2023</figcaption>
   </figure>
   <figure>
     <img src='{{ "images/gallery/summer-2023-5.jpeg" | relURL }}' alt="REU 2023">
-    <figcaption>Will Fowler and Kyle Zheng, REU 2023</figcaption>
+    <figcaption>Will Fowler and Kyle Zheng (summer students), REU 2023</figcaption>
   </figure>
   <figure>
     <img src='{{ "images/gallery/merif-2023-1.jpeg" | relURL }}' alt="MERIF 2023">
-    <figcaption>Mike Sherman presenting CHI@Edge and Autonomous vehicles, MERIF 2023</figcaption>
+    <figcaption>Mike Sherman (team) presenting CHI@Edge and autonomous vehicles, MERIF 2023</figcaption>
   </figure>
   <figure>
     <img src='{{ "images/gallery/user-meeting-2023-2.jpeg" | relURL }}' alt="Fourth Chameleon User Meeting 2023">
-    <figcaption>Kate Keahey, Mini symposium, Fourth Chameleon User Meeting, 2023</figcaption>
+    <figcaption>Kate Keahey (team), Mini symposium, Fourth Chameleon User Meeting, 2023</figcaption>
   </figure>
   <figure>
     <img src='{{ "images/gallery/user-meeting-2023-1.jpeg" | relURL }}' alt="Fourth Chameleon User Meeting 2023">
-    <figcaption>Frida Fund, Education Mini symposium, Fourth Chameleon User Meeting, 2023</figcaption>
+    <figcaption>Fraida Fund (collaborator, NYU), Education Mini symposium, Fourth Chameleon User Meeting, 2023</figcaption>
+  </figure>
+</div>
+
+{{/* TODO: confirm year(s) for the NCSA photos below, then move them into the
+     correct year block above. Placed here for now so they remain visible. */}}
+<h3>Team &amp; Collaborators</h3>
+<div class="gallery-grid">
+  <figure>
+    <img src='{{ "images/gallery/ncsa-photo-1.jpg" | relURL }}' alt="Team at NCSA">
+    <figcaption>The team at NCSA</figcaption>
   </figure>
   <figure>
-    <img src='{{ "images/gallery/ncsa-photo-1.jpg" | relURL }}' alt="NCSA">
-    <figcaption>Team at NCSA</figcaption>
-  </figure>
-  <figure>
-    <img src='{{ "images/gallery/ncsa-photo-3.jpg" | relURL }}' alt="NCSA">
-    <figcaption>Team at NCSA</figcaption>
+    <img src='{{ "images/gallery/ncsa-photo-3.jpg" | relURL }}' alt="Team at NCSA">
+    <figcaption>The team at NCSA</figcaption>
   </figure>
 </div>
 {{ end }}
