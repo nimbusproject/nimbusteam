@@ -1,0 +1,12 @@
+<div class="sidebar-section">
+  <h2>Latest News</h2>
+  <ul class="sidebar-post-list">
+    {{ range first 5 (where .Site.RegularPages "Section" "news") }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <span class="sidebar-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    </li>
+    {{ end }}
+  </ul>
+  <a href="{{ "news/" | relURL }}" class="sidebar-more">All news &raquo;</a>
+</div>

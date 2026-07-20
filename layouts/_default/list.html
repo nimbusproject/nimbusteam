@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="news-listing">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ if .Content }}
+  <div class="section-intro">{{ .Content }}</div>
+  {{ end }}
+  <div class="post-list">
+    {{ range .Paginator.Pages }}
+    {{ partial "nimbus/post-item.html" . }}
+    {{ end }}
+  </div>
+  {{ if or .Paginator.HasPrev .Paginator.HasNext }}
+  <nav class="pagination" aria-label="Pagination">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}">&laquo; Newer</a>
+    {{ end }}
+    <span class="page-indicator">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">Older &raquo;</a>
+    {{ end }}
+  </nav>
+  {{ end }}
+</div>
+{{ end }}

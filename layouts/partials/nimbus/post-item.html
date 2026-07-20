@@ -1,0 +1,23 @@
+<article class="post-item">
+  <div class="entry-inner">
+    <div class="entry-media">
+      <a href="{{ .Permalink }}" tabindex="-1" aria-hidden="true">
+        {{ if .Params.image }}
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" width="150" height="150">
+        {{ else }}
+        <img src='{{ "images/nimbus-logo.png" | relURL }}' alt="" width="150" height="150" class="post-default-thumb">
+        {{ end }}
+      </a>
+    </div>
+    <div class="entry-content-data">
+      <h2 class="entry-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      {{ partial "nimbus/meta.html" . }}
+      <div class="entry-excerpt">
+        {{ .Summary | safeHTML }}
+      </div>
+      <a class="readmore-button" href="{{ .Permalink }}">Read more &rarr;</a>
+    </div>
+  </div>
+</article>

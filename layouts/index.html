@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="home-layout">
+  <div class="home-content">
+    {{ .Content }}
+  </div>
+  <aside class="home-sidebar">
+    {{ partial "nimbus/news-sidebar.html" . }}
+  </aside>
+</div>
+{{ end }}
