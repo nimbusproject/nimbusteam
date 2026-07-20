@@ -2,7 +2,7 @@
 title: "New paper on transparent throughput elasticity for IaaS cloud storage"
 date: 2014-12-15
 aliases: ["/2014/12/15/new-paper-on-transparent-throughput-elasticity-for-iaas-cloud-storage/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Dec 15, 2014</div>

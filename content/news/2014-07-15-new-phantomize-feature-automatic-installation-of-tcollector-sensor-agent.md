@@ -2,7 +2,7 @@
 title: "New Phantomize feature: automatic installation of tcollector sensor agent"
 date: 2014-07-15
 aliases: ["/2014/07/15/new-phantomize-feature-automatic-installation-of-tcollector-sensor-agent/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Jul 15, 2014</div>

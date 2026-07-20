@@ -2,7 +2,7 @@
 title: "Workspace talks in the ANL/MCS booth, Supercomputing 2006"
 date: 2006-11-14
 aliases: ["/2006/11/14/workspace-talks-in-the-anl-mcs-booth-supercomputing-2006/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <p>Slides from the talk are available: <a href="https://nimbusproject.org/files/workspace_appliances_sc06_booth.pdf">pdf</a>.</p>

@@ -2,7 +2,7 @@
 title: "We are hiring a product lead for Chameleon!"
 date: 2020-09-22
 aliases: ["/2020/09/22/we-are-hiring-a-product-lead-for-chameleon/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Sep 22, 2020</div>

@@ -2,7 +2,7 @@
 title: "Virtual Workspaces at Supercomputing 2007"
 date: 2007-11-15
 aliases: ["/2007/11/15/virtual-workspaces-at-supercomputing-2007/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Nov 13-14, 2007</div>

@@ -3,7 +3,7 @@
     <div class="entry-media">
       <a href="{{ .Permalink }}" tabindex="-1" aria-hidden="true">
         {{ if .Params.image }}
-        <img src="{{ .Params.image }}" alt="{{ .Title }}" width="150" height="150">
+        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" width="150" height="150">
         {{ else }}
         <img src='{{ "images/nimbus-logo.png" | relURL }}' alt="" width="150" height="150" class="post-default-thumb">
         {{ end }}

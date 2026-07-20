@@ -2,7 +2,7 @@
 title: "Hiring Research Software Engineer – Apply Now!"
 date: 2024-10-14
 aliases: ["/2024/10/14/hiring-research-software-engineer-apply-now/"]
-image: "/images/news/chameleon-300x300.png"
+image: "images/news/chameleon-300x300.png"
 ---
 
 <p><strong>Be Part of Cloud Computing&#8217;s Future</strong></p>

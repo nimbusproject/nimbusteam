@@ -2,7 +2,7 @@
 title: "Website update"
 date: 2008-10-31
 aliases: ["/2008/10/31/website-update/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Oct 31, 2008</div>

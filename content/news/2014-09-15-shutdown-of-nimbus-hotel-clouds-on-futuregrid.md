@@ -2,7 +2,7 @@
 title: "Shutdown of Nimbus Hotel clouds on FutureGrid"
 date: 2014-09-15
 aliases: ["/2014/09/15/shutdown-of-nimbus-hotel-clouds-on-futuregrid/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Sep 15, 2014</div>

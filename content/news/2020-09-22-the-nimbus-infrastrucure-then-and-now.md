@@ -2,7 +2,7 @@
 title: "The Nimbus Infrastrucure, then and now"
 date: 2020-09-22
 aliases: ["/2020/09/22/the-nimbus-infrastrucure-then-and-now/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Sep 22, 2020</div>

@@ -2,7 +2,7 @@
 title: "Science Cloud Available at the University of Florida"
 date: 2008-05-13
 aliases: ["/2008/05/13/science-cloud-available-at-the-university-of-florida/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">May 13, 2008</div>

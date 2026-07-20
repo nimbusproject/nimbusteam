@@ -2,7 +2,7 @@
 title: "2017 summer student projects are out!"
 date: 2017-03-29
 aliases: ["/2017/03/29/2017-summer-student-projects-are-out/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Mar 29, 2017</div>

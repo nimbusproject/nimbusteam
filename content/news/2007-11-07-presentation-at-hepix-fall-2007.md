@@ -2,7 +2,7 @@
 title: "Presentation at HEPiX Fall 2007"
 date: 2007-11-07
 aliases: ["/2007/11/07/presentation-at-hepix-fall-2007/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Nov 7, 2007</div>

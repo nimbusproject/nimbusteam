@@ -2,7 +2,7 @@
 title: "We are hiring a senior cloud computing software developer!"
 date: 2021-02-15
 aliases: ["/2021/02/15/we-are-hiring-a-senior-cloud-computing-software-developer/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Feb 15, 2021</div>

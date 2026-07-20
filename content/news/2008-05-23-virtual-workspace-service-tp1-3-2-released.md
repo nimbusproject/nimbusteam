@@ -2,7 +2,7 @@
 title: "Virtual Workspace Service TP1.3.2 released"
 date: 2008-05-23
 aliases: ["/2008/05/23/virtual-workspace-service-tp1-3-2-released/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">May 23, 2008</div>

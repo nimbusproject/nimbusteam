@@ -2,7 +2,7 @@
 title: "Monitoring contributions to Nimbus"
 date: 2008-10-21
 aliases: ["/2008/10/21/monitoring-contributions-to-nimbus/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Oct 21, 2008</div>

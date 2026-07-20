@@ -2,7 +2,7 @@
 title: "Announcing Virtual Reproducibility Hackathon – December 15th, 2023"
 date: 2023-12-12
 aliases: ["/2023/12/12/announcing-virtual-reproducibility-hackathon-december-15th-2023/"]
-image: "/images/news/DALL·E-2023-11-13-16.18.04-300x300.png"
+image: "images/news/DALL·E-2023-11-13-16.18.04-300x300.png"
 ---
 
 <br />

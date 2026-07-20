@@ -2,7 +2,7 @@
 title: "New paper on cloud computing for on-demand and scalable CyberGIS analytics"
 date: 2014-05-15
 aliases: ["/2014/05/15/new-paper-on-cloud-computing-for-on-demand-and-scalable-cybergis-analytics/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">May 15, 2014</div>

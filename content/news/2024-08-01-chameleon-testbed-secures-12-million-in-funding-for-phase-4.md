@@ -2,7 +2,7 @@
 title: "Chameleon Testbed Secures $12 Million in Funding for Phase 4"
 date: 2024-08-01
 aliases: ["/2024/08/01/chameleon-testbed-secures-12-million-in-funding-for-phase-4/"]
-image: "/images/news/img_1944-631x1024.jpeg__400x300_q85_subsampling-2_upscale.jpg"
+image: "images/news/img_1944-631x1024.jpeg__400x300_q85_subsampling-2_upscale.jpg"
 ---
 
 <p>We are thrilled to announce that Chameleon, our experimental testbed for computer science research, has been awarded $12 million in funding from the U.S. <a href="https://www.linkedin.com/company/national-science-foundation/">National Science Foundation (NSF)</a> for its fourth phase. This latest grant brings the total investment in Chameleon to over $42 million across four funding phases.<br><br>Key Highlights:</p>

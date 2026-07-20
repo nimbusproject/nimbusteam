@@ -2,7 +2,7 @@
 title: "Paper accepted to eScience 2008"
 date: 2008-10-28
 aliases: ["/2008/10/28/paper-accepted-to-escience-2008/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Oct 28, 2008</div>

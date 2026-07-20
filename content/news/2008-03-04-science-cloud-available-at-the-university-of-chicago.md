@@ -2,7 +2,7 @@
 title: "Science Cloud Available at the University of Chicago"
 date: 2008-03-04
 aliases: ["/2008/03/04/science-cloud-available-at-the-university-of-chicago/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Mar 04, 2008</div>

@@ -2,7 +2,7 @@
 title: "FutureGrid multi-cloud VM image generator now available"
 date: 2014-06-04
 aliases: ["/2014/06/04/futuregrid-multi-cloud-vm-image-generator-now-available/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Jun 04, 2014</div>

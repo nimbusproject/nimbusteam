@@ -2,7 +2,7 @@
 title: "Nimbus Phantom summer update"
 date: 2013-10-22
 aliases: ["/2013/10/22/nimbus-phantom-summer-update/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Oct 22, 2013</div>

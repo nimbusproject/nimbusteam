@@ -2,7 +2,7 @@
 title: "Nimbus at Supercomputing 2008"
 date: 2008-11-14
 aliases: ["/2008/11/14/nimbus-at-supercomputing-2008/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Nov 16-19, 2008</div>

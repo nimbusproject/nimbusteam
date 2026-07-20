@@ -2,7 +2,7 @@
 title: "Welcome Google Summer of Code students!"
 date: 2008-05-26
 aliases: ["/2008/05/26/welcome-google-summer-of-code-students/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <ul class="news-item">

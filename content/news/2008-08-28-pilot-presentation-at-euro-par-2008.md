@@ -2,7 +2,7 @@
 title: "Pilot Presentation at Euro-Par 2008"
 date: 2008-08-28
 aliases: ["/2008/08/28/pilot-presentation-at-euro-par-2008/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Aug 28, 2008</div>

@@ -2,7 +2,7 @@
 title: "Virtual Workspaces at CHEP 2007"
 date: 2007-09-02
 aliases: ["/2007/09/02/virtual-workspaces-at-chep-2007/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Sep 2-7, 2007</div>

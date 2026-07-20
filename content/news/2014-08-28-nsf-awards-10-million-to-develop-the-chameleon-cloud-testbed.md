@@ -2,7 +2,7 @@
 title: "NSF awards $10 million to develop the Chameleon cloud testbed"
 date: 2014-08-28
 aliases: ["/2014/08/28/nsf-awards-10-million-to-develop-the-chameleon-cloud-testbed/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Aug 28, 2014</div>

@@ -2,7 +2,7 @@
 title: "Science Cloud Presentation at CCA08"
 date: 2008-10-23
 aliases: ["/2008/10/23/science-cloud-presentation-at-cca08/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Oct 23, 2008</div>

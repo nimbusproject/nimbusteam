@@ -2,7 +2,7 @@
 title: "Nimbus Phantom demo at SC13 and on YouTube"
 date: 2013-11-20
 aliases: ["/2013/11/20/nimbus-phantom-demo-at-sc13-and-on-youtube/"]
-image: "/images/news/NCSA_photo_3-300x224.jpg"
+image: "images/news/NCSA_photo_3-300x224.jpg"
 ---
 
 <div class="news-date">Nov 20, 2013</div>

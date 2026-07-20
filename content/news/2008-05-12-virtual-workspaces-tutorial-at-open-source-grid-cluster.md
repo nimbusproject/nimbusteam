@@ -2,7 +2,7 @@
 title: "Virtual Workspaces Tutorial at Open Source Grid Cluster"
 date: 2008-05-12
 aliases: ["/2008/05/12/virtual-workspaces-tutorial-at-open-source-grid-cluster/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">May 12-16, 2008</div>

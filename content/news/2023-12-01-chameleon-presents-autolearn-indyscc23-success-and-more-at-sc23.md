@@ -2,7 +2,7 @@
 title: "Chameleon presents AutoLearn, IndySCC’23 success, and more at SC’23"
 date: 2023-12-01
 aliases: ["/2023/12/01/chameleon-presents-autolearn-indyscc23-success-and-more-at-sc23/"]
-image: "/images/news/sc23_ver_blackcolor@4x-242x300.png"
+image: "images/news/sc23_ver_blackcolor@4x-242x300.png"
 ---
 
 <p><em>Did you attend SC’23? Check out the initiatives Chameleon supported at the event, including workshops, papers written using Chameleon, and more! If you presented something related to Chameleon at SC’23 and are not on this list, send us an email – we will update this announcement with relevant information as we get it.</em></p>

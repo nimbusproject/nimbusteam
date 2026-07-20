@@ -2,7 +2,7 @@
 title: "cloud-client 006 available"
 date: 2008-04-15
 aliases: ["/2008/04/15/cloud-client-006-available/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Apr 15, 2008</div>

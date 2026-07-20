@@ -2,7 +2,7 @@
 title: "Early Bird Registration Open Until Sept. 30 for Workshop on Practical Reproducibility in HPC!"
 date: 2024-08-27
 aliases: ["/2024/08/27/early-bird-registration-open-until-sept-30-for-workshop-on-practical-reproducibility-in-hpc/"]
-image: "/images/news/Gemini_Generated_Image_p34pepp34pepp34p-300x300.jpg"
+image: "images/news/Gemini_Generated_Image_p34pepp34pepp34p-300x300.jpg"
 ---
 
 <p>Visit our <a href="https://reproduciblehpc.org">workshop website</a>!</p>

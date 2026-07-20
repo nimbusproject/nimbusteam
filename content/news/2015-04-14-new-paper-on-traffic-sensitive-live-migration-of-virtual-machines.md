@@ -2,7 +2,7 @@
 title: "New paper on traffic-sensitive live migration of virtual machines"
 date: 2015-04-14
 aliases: ["/2015/04/14/new-paper-on-traffic-sensitive-live-migration-of-virtual-machines/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Apr 14, 2015</div>

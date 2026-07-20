@@ -2,7 +2,7 @@
 title: "Announcing Reproducibility Hackathon at the IC2E Conference"
 date: 2023-08-17
 aliases: ["/2023/08/17/announcing-reproducibility-hackathon-at-the-ic2e-conference/"]
-image: "/images/news/picture-1-300x200.jpg"
+image: "images/news/picture-1-300x200.jpg"
 ---
 
 <p></p>

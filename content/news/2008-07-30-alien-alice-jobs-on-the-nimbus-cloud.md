@@ -2,7 +2,7 @@
 title: "AliEn ALICE jobs on the Nimbus Cloud"
 date: 2008-07-30
 aliases: ["/2008/07/30/alien-alice-jobs-on-the-nimbus-cloud/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Jul 30, 2008</div>

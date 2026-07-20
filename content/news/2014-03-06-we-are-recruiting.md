@@ -2,7 +2,7 @@
 title: "We are recruiting!"
 date: 2014-03-06
 aliases: ["/2014/03/06/we-are-recruiting/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Mar 06, 2014</div>

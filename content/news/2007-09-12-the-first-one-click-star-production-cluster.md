@@ -2,7 +2,7 @@
 title: "The first one-click STAR production cluster"
 date: 2007-09-12
 aliases: ["/2007/09/12/the-first-one-click-star-production-cluster/"]
-image: "/images/news/service-thumb-1.jpg"
+image: "images/news/service-thumb-1.jpg"
 ---
 
 <div class="news-date">Sep 12, 2007</div>
