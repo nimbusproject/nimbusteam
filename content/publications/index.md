@@ -7,6 +7,14 @@ hideMeta: true
 <div class="publications-list">
 <h3 class="wp-block-heading has-text-align-center">Papers, Tech Reports, and Posters</h3>
 
+<h4 class="wp-block-heading">2026</h4>
+
+<ul class="wp-block-list">
+<li><strong>Practical Evaluation Methods for Scientific Instruments</strong>. Keahey, K., Marshall, P., Powers, M., Richardson, M., Sherman, M., and Stanzione, D. In <em>Practice and Experience in Advanced Research Computing</em> (PEARC&#8217;26), July 26&ndash;30, 2026, Minneapolis, MN, USA. DOI: 10.1145/3785462.3815804. (<a href="https://chameleoncloud.org/media/filer_public/43/b3/43b348a7-c54e-4001-9216-634b8501e041/pearc26-15_4.pdf">pdf</a>)</li>
+
+<li><strong>Leveraging Chameleon Cloud for Hands-On Learning in Systems and Data Courses: An Experience Report</strong>. Fund, F., Zadok, E., Estro, T., Koop, D., Keahey, K., and Richardson, M. In <em>2nd ACM Virtual Global Computing Education Conference</em> (SIGCSE-V&#8217;26), Nov. 12&ndash;15, 2026. (<a href="https://chameleoncloud.org/media/filer_public/96/b8/96b8845a-15db-4c4c-8977-89a5392514ba/fount_teaching_paper_1.pdf">pdf</a>)</li>
+</ul>
+
 <h4 class="wp-block-heading">2025</h4>
 
 <ul class="wp-block-list">
@@ -375,105 +383,53 @@ hideMeta: true
 <ul class="wp-block-list"></p>
 <li><strong>Dynamic Creation and Management of Runtime Environments in the Grid</strong>, Keahey, K., M. Ripeanu, and K. Doering. Workshop on Designing and Building Web Services (GGF 9), Chicago, IL. October, 2003. (<a href="https://wordpress.cels.anl.gov/nimbusproject/wp-content/uploads/sites/116/2023/08/Dynamic_Runtime_Environments_dbgs2003.pdf">pdf</a>)</li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
 <h3 class="wp-block-heading has-text-align-center">Talks and Posters</h3>
 <h4 class="wp-block-heading">2025</h4>
-<p></p>
-<p></p>
-<h4></h4>
 <ul class="wp-block-list"></p>
 <li><strong>Retrieval-Augmented Generation (RAG) To Enhance Open Testbed Documentation</strong>, Ali Zada S., Richardson M., Keahey K. In <em>2025 International Conference for High Performance Computing, Networking, Storage and Analysis</em> (Nov. 2025) (<a href="/files/papers/ACM_Conference_Proceedings_Primary_Article_Template_Saieda.pdf">link</a>)</li>
-<p> </p>
 <li><strong>Enhancing Usability and Performance in Experimental Environments Management</strong>, Temori Z., Marshall P., Keahey K. In <em>2025 International Conference for High Performance Computing, Networking, Storage and Analysis</em> (Nov. 2025) (<a href="/files/papers/ACM_Conference_Proceedings_Primary_Article_Template_Zahra.pdf">link</a>)</li>
-<p> </p>
 <li><strong>Echoes of Earth: Building an Autonomous Environmental Lab for Acoustic Sensing</strong>, Reynolds H., Tuecke A., Sherman M., Keahey K. In <em>2025 International Conference for High Performance Computing, Networking, Storage and Analysis</em> (Nov. 2025). (<a href="/files/papers/ACM_SC25_Extended_Abstract_Hudson_Alex.pdf">link</a></li>
 <p></ul>
-<h4></h4>
 <h4 class="wp-block-heading">2024</h4>
-<p></p>
-<p></p>
-<h4></h4>
 <ul class="wp-block-list"></p>
 <li><strong>5G in Practice: Measuring Emerging Rural Wireless Technology for Edge Devices in Distributed Computation Workloads</strong>, Zack Murry, Alicia Esquivel Morel, and Kate Keahey. In <em>2024 International Conference for High Performance Computing, Networking, Storage and Analysis</em> (Nov. 2024) (<a href="https://sc24.supercomputing.org/proceedings/poster/poster_pages/post213.html">link</a>)</li>
-<p> </p>
 <li><strong>Edge-Enabled Real-Time Data Processing in Power-Efficient Weather Stations using IBIS</strong>, William Fowler, Alicia Esquivel Morel, and Kate Keahey. In <em>2024 International Conference for High Performance Computing, Networking, Storage and Analysis</em> (Nov. 2024) (<a href="https://sc24.supercomputing.org/proceedings/poster/poster_pages/post229.html">link</a>)</li>
-<p> </p>
 <li><strong>Meteorologic Real-time Extreme Learning Machine for Pressure Prediction</strong>, Anagha Ram, Alicia Esquivel Morel, and Kate Keahey. In <em>2024 International Conference for High Performance Computing, Networking, Storage and Analysis</em> (Nov. 2024). (<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;" href="https://sc24.supercomputing.org/proceedings/poster/poster_pages/post254.html">link</a><span style="color: initial; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">)</span></li>
-<p> </p>
 <li><strong>Prototype Development and Testing of a Smart Buoy System for Coastal and Marine Ecosystems Using IBIS</strong>, Harper J., Esquivel Morel A., Keahey K. In <em>2024 International Conference for High Performance Computing, Networking, Storage and Analysis</em> (Nov. 2024) (<a href="https://www.chameleoncloud.org/media/filer_public/71/0b/710b1c62-8fed-4f1d-b72a-92a263497726/julia_harper_-_poster.pdf">link</a>)</li>
 <p></ul>
-<h4></h4>
 <h4 class="wp-block-heading">2021</h4>
-<p></p>
-<p></p>
 <ul class="wp-block-list"></p>
 <li><strong>One Fish, Two Fish: Choosing Optimal Edge Topologies for Real-Time Autonomous Fish Surveys</strong>, Tsen, J., Anderson, J., Bobadilla, L. and Keahey K., In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC’21 Poster). IEEE Press. November 2021 (<a href="https://sc21.supercomputing.org/proceedings/src_poster/src_poster_pages/spostu110.html">link</a>)</li>
 </ul>
-<p></p>
-<p></p>
 <ul>
 <li><strong>Yin and Yang: Balancing Cloud Computing and HTC Workloads </strong>, Kang Z., Zhen Z., and Keahey K., In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC’21 Poster). IEEE Press. November 2021 (<a href="https://sc21.supercomputing.org/proceedings/src_poster/src_poster_pages/spostg104.html">link</a>)</li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
 <h4 class="wp-block-heading">2020</h4>
-<p></p>
-<p></p>
 <ul class="wp-block-list"></p>
 <li><strong>Future-Proof Your Research: Designing for Replicability and Reproducibility</strong>, Brunkan, I., Keahey K., Zhen Z., and Toksoz L. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC’20 Poster). IEEE Press. November 2020 (<a href="https://sc20.supercomputing.org/proceedings/src_poster/src_poster_pages/spostu106.html">link</a>)</li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
 <h4 class="wp-block-heading">2019</h4>
-<p></p>
-<p></p>
 <ul class="wp-block-list"></p>
 <li><strong>From IoT to Cloud: Research Platform for IoT/Cloud Experiments</strong>, Lin J. and Keahey K. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC&#8217;19 Poster). IEEE Press. November 2019 (<a href="https://sc19.supercomputing.org/proceedings/src_poster/src_poster_pages/spostg118.html">link</a>)</li>
 </ul>
-<p></p>
-<p></p>
 <ul>
 <li><strong>Sharing and Replicability of Notebook-Based Research on Open Testbeds</strong>, King M., Anderson J. and Keahey K. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC&#8217;19 Poster). IEEE Press. November 2019 (<a href="https://sc19.supercomputing.org/proceedings/tech_poster/tech_poster_pages/rpost224.html">link</a><a>)</a></li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
 <h4 class="wp-block-heading">2018</h4>
-<p></p>
-<p></p>
 <ul class="wp-block-list"></p>
 <li><strong>Reproducibility as Side Effect</strong>, Wang S., Zhen Z., Anderson J., Keahey K. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC&#8217;18 Poster). IEEE Press. November 2018 (<a href="https://sc18.supercomputing.org/proceedings/tech_poster/tech_poster_pages/post268.html">link</a>)</li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
 <h4 class="wp-block-heading">2015</h4>
-<p></p>
-<p></p>
 <ul class="wp-block-list"></p>
 <li><strong>Traffic-Sensitive Live Migration of Virtual Machines</strong>, Deshpande, U., Keahey, K. 15th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid 2015). Shenzhen, Guangdong, China. May 2015 (<a href="https://wordpress.cels.anl.gov/nimbusproject/wp-content/uploads/sites/116/2023/08/Deshpande_CCGrid15_slides.pdf">pdf</a>)</li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
 <h4 class="wp-block-heading">2014</h4>
-<p></p>
-<p></p>
 <ul class="wp-block-list"></p>
 <li><strong>Transparent Throughput Elasticity for IaaS Cloud Storage Using Guest-Side Block-Level Caching</strong>, Nicolae, B., Riteau, P., Keahey, K. 7th IEEE/ACM International Conference on Utility and Cloud Computing (UCC 2014). London, United Kingdom. December 2014 (<a href="https://wordpress.cels.anl.gov/nimbusproject/wp-content/uploads/sites/116/2023/08/Nicolae_UCC2014_slides.pdf">pdf</a>)</li>
 </ul>
-<p></p>
-<p></p>
 <ul>
 <li><strong>A Cloud Computing Approach to On-Demand and Scalable CyberGIS Analytics</strong>, Riteau P., Hwang M., Padmanabhan A., Gao Y., Liu Y., Keahey K., Wang S. 5th Workshop on Scientific Cloud Computing (ScienceCloud 2014). Vancouver, Canada. June 2014 (<a href="https://wordpress.cels.anl.gov/nimbusproject/wp-content/uploads/sites/116/2023/08/Riteau_ScienceCloud2014_slides.pdf">pdf</a>)</li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
 <h4 class="wp-block-heading">2013</h4>
 <p></p>
 <p></p>
