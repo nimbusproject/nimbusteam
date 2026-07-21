@@ -18,9 +18,14 @@
   {{ partial "nimbus/header.html" . }}
   <div class="site-frame">
     {{ partial "nimbus/nav.html" . }}
-    <main id="main">
-      {{ block "main" . }}{{ end }}
-    </main>
+    <div class="content-layout">
+      <main id="main">
+        {{ block "main" . }}{{ end }}
+      </main>
+      <aside class="site-sidebar">
+        {{ partial "nimbus/news-sidebar.html" . }}
+      </aside>
+    </div>
     {{ partial "nimbus/footer.html" . }}
   </div>
 </body>
