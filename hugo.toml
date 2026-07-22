@@ -6,6 +6,8 @@ title = "Nimbus Project"
 description = "Cloud computing research, development, and operations at University of Chicago"
 mainSections = ["news"]
 
+summarylength = 30
+
 [pagination]
 pagerSize = 10
 
