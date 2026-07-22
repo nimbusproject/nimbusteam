@@ -1,17 +1,20 @@
 {{ define "main" }}
 <div class="projects-section">
-<h2>Active Projects</h2>
+
+{{ $linkedin := `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20" height="20"><path d="M100.3 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.6 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>` }}
+{{ $twitter := `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20" height="20"><path d="M376.6 427.5c11.31 13.58 9.484 33.75-4.094 45.06c-5.984 4.984-13.25 7.422-20.47 7.422c-9.172 0-18.27-3.922-24.59-11.52L192 305.1l-135.4 162.5c-6.328 7.594-15.42 11.52-24.59 11.52c-7.219 0-14.48-2.438-20.47-7.422c-13.58-11.31-15.41-31.48-4.094-45.06l142.9-171.5L7.422 84.5C-3.891 70.92-2.063 50.75 11.52 39.44c13.56-11.34 33.73-9.516 45.06 4.094L192 206l135.4-162.5c11.3-13.58 31.48-15.42 45.06-4.094c13.58 11.31 15.41 31.48 4.094 45.06l-142.9 171.5L376.6 427.5z"/></svg>` }}
+{{ $link := `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="20" height="20"><path d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>` }}
 
 <div class="project-item">
   <img class="project-logo" src='{{ "images/projects/chameleon.png" | relURL }}' alt="Chameleon Cloud logo">
   <div class="project-info">
-    <h3>CHAMELEON Cloud</h3>
+    <span class="project-name"><strong>CHAMELEON Cloud</strong></span>
     <p>Chameleon is a large-scale, deeply reconfigurable experimental platform built to support Computer Sciences systems research.</p>
-    <div class="project-links">
-      <a href="https://www.chameleoncloud.org/" target="_blank" rel="noopener">Website</a>
-      <a href="https://twitter.com/ChameleonCloud" target="_blank" rel="noopener">Twitter/X</a>
-      <a href="https://www.linkedin.com/company/chameleon-cloud/" target="_blank" rel="noopener">LinkedIn</a>
-    </div>
+    <ul class="project-social">
+      <li><a href="https://www.linkedin.com/company/chameleon-cloud/" target="_blank" rel="noopener" aria-label="LinkedIn">{{ $linkedin | safeHTML }}</a></li>
+      <li><a href="https://twitter.com/ChameleonCloud" target="_blank" rel="noopener" aria-label="Twitter/X">{{ $twitter | safeHTML }}</a></li>
+      <li><a href="https://www.chameleoncloud.org/" target="_blank" rel="noopener" aria-label="Website">{{ $link | safeHTML }}</a></li>
+    </ul>
   </div>
 </div>
 
@@ -35,50 +38,51 @@
 <div class="project-item">
   <img class="project-logo" src='{{ "images/projects/repeto.png" | relURL }}' alt="REPETO logo">
   <div class="project-info">
-    <h3>REPETO</h3>
+    <span class="project-name"><strong>REPETO</strong></span>
     <p>The REPETO (pronounce to rhyme with <a href="https://en.wikipedia.org/wiki/Geppetto">Geppetto</a>) project is an NSF-funded research coordination network (RCN) that promotes the concept of <em>practical reproducibility</em>.</p>
-    <div class="project-links">
-      <a href="https://repeto.cs.uchicago.edu/" target="_blank" rel="noopener">Website</a>
-      <a href="https://www.linkedin.com/company/practicalrepro" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://twitter.com/PracticalRepro" target="_blank" rel="noopener">Twitter/X</a>
-    </div>
+    <ul class="project-social">
+      <li><a href="https://www.linkedin.com/company/practicalrepro" target="_blank" rel="noopener" aria-label="LinkedIn">{{ $linkedin | safeHTML }}</a></li>
+      <li><a href="https://twitter.com/PracticalRepro" target="_blank" rel="noopener" aria-label="Twitter/X">{{ $twitter | safeHTML }}</a></li>
+      <li><a href="https://repeto.cs.uchicago.edu/" target="_blank" rel="noopener" aria-label="Website">{{ $link | safeHTML }}</a></li>
+    </ul>
   </div>
 </div>
 
 <div class="project-item">
   <img class="project-logo" src='{{ "images/projects/fount.png" | relURL }}' alt="FOUNT logo">
   <div class="project-info">
-    <h3>FOUNT</h3>
+    <span class="project-name"><strong>FOUNT</strong></span>
     <p>Scientists, educators, students, and the workforce at large require advanced skills to learn how to manage and process massive amounts of data efficiently and accurately.</p>
-    <div class="project-links">
-      <a href="https://fount.cs.uchicago.edu/" target="_blank" rel="noopener">Website</a>
-      <a href="https://www.linkedin.com/company/founthandsonlearning/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://twitter.com/fountproject" target="_blank" rel="noopener">Twitter/X</a>
-    </div>
+    <ul class="project-social">
+      <li><a href="https://www.linkedin.com/company/founthandsonlearning/" target="_blank" rel="noopener" aria-label="LinkedIn">{{ $linkedin | safeHTML }}</a></li>
+      <li><a href="https://twitter.com/fountproject" target="_blank" rel="noopener" aria-label="Twitter/X">{{ $twitter | safeHTML }}</a></li>
+      <li><a href="https://fount.cs.uchicago.edu/" target="_blank" rel="noopener" aria-label="Website">{{ $link | safeHTML }}</a></li>
+    </ul>
   </div>
 </div>
 
 <div class="project-item">
   <img class="project-logo" src='{{ "images/projects/pposss.png" | relURL }}' alt="PPoSS logo">
   <div class="project-info">
-    <h3>PPoSS (ScaleStuds)</h3>
-    <p>Research on correctness checkability and performance predictability at scale.</p>
-    <div class="project-links">
-      <a href="https://pposss.cs.uchicago.edu/" target="_blank" rel="noopener">Website</a>
-    </div>
+    <span class="project-name"><strong>PPoSS</strong></span>
+    <p>The ScaleStuds project involves a team of ten researchers to develop the foundations of correctness checkability (CC) and performance predictability (PP) of systems at scale.</p>
+    <ul class="project-social">
+      <li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2119184" target="_blank" rel="noopener" aria-label="Website">{{ $link | safeHTML }}</a></li>
+    </ul>
   </div>
 </div>
 
-<h2>Past Projects</h2>
+<h2>Past projects</h2>
 
 <div class="project-item">
   <img class="project-logo" src='{{ "images/projects/fabric.png" | relURL }}' alt="FABRIC logo">
   <div class="project-info">
-    <h3>FABRIC Testbed</h3>
-    <p>FABRIC is an international network research infrastructure that enables network researchers to develop and test new architectures and protocols at scale.</p>
-    <div class="project-links">
-      <a href="https://fabric-testbed.net/" target="_blank" rel="noopener">Website</a>
-    </div>
+    <span class="project-name"><strong>FABRIC Testbed</strong></span>
+    <p>FABRIC (FABRIC is Adaptive ProgrammaBle Research Infrastructure for Computer Science and Science Applications) is an International infrastructure that enables cutting-edge experimentation and research at-scale in the areas of networking, cybersecurity, distributed computing, storage, virtual reality, 5G, machine learning, and science applications.</p>
+    <ul class="project-social">
+      <li><a href="https://twitter.com/FABRICtestbed" target="_blank" rel="noopener" aria-label="Twitter/X">{{ $twitter | safeHTML }}</a></li>
+      <li><a href="https://fabric-testbed.net/" target="_blank" rel="noopener" aria-label="Website">{{ $link | safeHTML }}</a></li>
+    </ul>
   </div>
 </div>
 
