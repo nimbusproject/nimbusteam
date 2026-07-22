@@ -18,6 +18,13 @@
   {{ partial "nimbus/header.html" . }}
   <div class="site-frame">
     {{ partial "nimbus/nav.html" . }}
+    {{ if eq .Type "news" }}
+    <div class="content-layout content-only">
+      <main id="main">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+    {{ else }}
     <div class="content-layout">
       <main id="main">
         {{ block "main" . }}{{ end }}
@@ -26,6 +33,7 @@
         {{ partial "nimbus/news-sidebar.html" . }}
       </aside>
     </div>
+    {{ end }}
     {{ partial "nimbus/footer.html" . }}
   </div>
 </body>

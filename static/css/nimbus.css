@@ -133,7 +133,7 @@ p { margin: 0 0 1rem; }
 
 .site-frame {
   max-width: var(--max-width);
-  margin: 0.75rem auto 2rem;
+  margin: 0.25rem auto 2rem;
   background-color: var(--color-bg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
   min-height: 60vh;
@@ -158,6 +158,10 @@ p { margin: 0 0 1rem; }
   padding: 1.5rem 1.5rem 2rem;
 }
 
+.content-layout.content-only {
+  grid-template-columns: 1fr;
+}
+
 @media (max-width: 720px) {
   .content-layout { grid-template-columns: 1fr; }
 }
@@ -175,7 +179,7 @@ p { margin: 0 0 1rem; }
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.box p { color: var(--color-box-text); margin: 0; }
+.box p { color: var(--color-box-text); }
 .box p strong { color: var(--color-box-text); }
 
 .centered-text {
@@ -188,14 +192,16 @@ p { margin: 0 0 1rem; }
 /* ── Sidebar ────────────────────────────────────────────────── */
 
 .site-sidebar {
-  background: var(--color-box-bg);
-  border: 1px solid var(--color-border);
-  padding: 1.1rem 1.2rem;
+  border-left: 1px solid var(--color-border);
+  padding: 0.5rem 0 0 1.5rem;
+  align-self: stretch;
 }
 
 .site-sidebar h2 {
   font-size: 0.95rem;
   color: var(--color-widget-title);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   margin: 0 0 0.5rem;
   padding-bottom: 0.35rem;
   border-bottom: 1px solid var(--color-border);
@@ -268,6 +274,19 @@ p { margin: 0 0 1rem; }
   border-bottom: 1px solid var(--color-border);
 }
 
+.post-featured-image {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.post-featured-image img {
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
+  display: inline-block;
+  border-radius: 4px;
+}
+
 .post-content { line-height: 1.8; }
 .post-content p { margin: 0 0 1rem; }
 .post-content ul, .post-content ol { padding-left: 1.5rem; margin-bottom: 1rem; }
@@ -315,12 +334,28 @@ p { margin: 0 0 1rem; }
   border-radius: 7px;
 }
 
-.entry-media .post-default-thumb {
+.entry-media img.post-default-thumb {
   object-fit: contain;
   padding: 10px;
-  background: var(--color-nav-bg);
-  border-radius: 7px;
+  background: var(--color-nav-active);
 }
+
+/* Full-width news listing: larger thumbnail (≈20% of content width) */
+.content-only .entry-inner {
+  gap: 1.25rem;
+}
+
+.content-only .entry-media {
+  flex: 0 0 22%;
+  max-width: 22%;
+}
+
+.content-only .entry-media img {
+  width: 100%;
+  max-height: 170px;
+  object-fit: cover;
+}
+
 
 .entry-content-data {
   flex: 1;
