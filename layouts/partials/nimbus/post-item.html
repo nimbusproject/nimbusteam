@@ -15,7 +15,7 @@
       </h2>
       {{ partial "nimbus/meta.html" . }}
       <div class="entry-excerpt">
-        {{ .Summary | safeHTML }}
+        {{ .Content | plainify | truncate 160 "…" }}
       </div>
       <a class="readmore-button" href="{{ .Permalink }}">Read more &rarr;</a>
     </div>
