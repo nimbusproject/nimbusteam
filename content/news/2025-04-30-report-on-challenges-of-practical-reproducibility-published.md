@@ -2,6 +2,7 @@
 title: "Report on Challenges of Practical Reproducibility Published"
 date: 2025-04-30
 aliases: ["/2025/04/30/report-on-challenges-of-practical-reproducibility-published/"]
+image: "images/news/reproducibility-workshop-2024.jpg"
 ---
 
 <p>We are pleased to share the <strong>&ldquo;Report on Challenges of Practical Reproducibility for Systems and HPC Computer Science&rdquo;</strong> (Kate Keahey, Marc Richardson, Rafael Tolosana Calasanz, Sascha Hunold, Jay Lofstead, Tanu Malik, and Christian Perez). The report distills the outcomes of the Community Workshop on Practical Reproducibility in HPC, held in Atlanta in November 2024, into a concrete set of challenges and recommendations for making systems and HPC research reproducible in practice. It is openly available on <a href="https://zenodo.org/records/15306610" target="_blank" rel="noopener">Zenodo</a> (DOI <a href="https://doi.org/10.5281/zenodo.15306610" target="_blank" rel="noopener">10.5281/zenodo.15306610</a>) and summarized on the <a href="https://repeto.cs.uchicago.edu/resources/report2024/" target="_blank" rel="noopener">REPETO project site</a>.</p>

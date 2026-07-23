@@ -2,6 +2,7 @@
 title: "Sixth Chameleon User Meeting Focuses on Infrastructure for AI"
 date: 2026-04-16
 aliases: ["/2026/04/16/sixth-chameleon-user-meeting-focuses-on-infrastructure-for-ai/"]
+image: "images/gallery/sixth-user-meeting-2026-1.jpg"
 ---
 
 <p>The <strong>Sixth Chameleon User Meeting</strong> took place April 15&ndash;16, 2026 at the NSF NCAR Mesa Laboratory in Boulder, Colorado, with a theme close to the whole community&rsquo;s mind this year: <strong>infrastructure for AI and machine learning</strong>. The meeting brought together Chameleon users, operators, and collaborators to share how they are building, teaching with, and doing research on AI/ML infrastructure. Details and the full agenda are on the <a href="https://chameleoncloud.org/chameleon-cloud-users-meeting/sixth-chameleon-user-meeting/" target="_blank" rel="noopener">meeting page</a>.</p>

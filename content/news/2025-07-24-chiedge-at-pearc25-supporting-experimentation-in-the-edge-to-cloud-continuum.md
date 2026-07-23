@@ -2,6 +2,7 @@
 title: "CHI@Edge at PEARC'25: Supporting Experimentation in the Edge-to-Cloud Continuum"
 date: 2025-07-24
 aliases: ["/2025/07/24/chiedge-at-pearc25-supporting-experimentation-in-the-edge-to-cloud-continuum/"]
+image: "images/news/pearc25-columbus-convention-center.jpg"
 ---
 <!--
   DRAFT FOR REVIEW.
@@ -22,3 +23,5 @@ aliases: ["/2025/07/24/chiedge-at-pearc25-supporting-experimentation-in-the-edge
 <p>CHI@Edge builds on years of edge-computing work in our community, including the use cases and discussion gathered at the <a href="https://chameleoncloud.org/chiedge-community-workshop/" target="_blank" rel="noopener">2021 CHI@Edge Community Workshop</a> and captured in the resulting <a href="https://doi.org/10.5281/zenodo.5777344" target="_blank" rel="noopener">CHI@Edge Community Workshop Report</a>. Since then, CHI@Edge has grown into a platform that a wide range of student and research projects rely on, a trajectory you can trace through the posters our summer researchers have brought to SC each year. It starts with early edge-topology work like <em>&ldquo;One Fish, Two Fish: Choosing Optimal Edge Topologies for Real-Time Autonomous Fish Surveys&rdquo;</em> (SC&rsquo;21), runs through the DonkeyCar self-driving experiments of <a href="https://blog.chameleoncloud.org/posts/chameleon-at-sc-23" target="_blank" rel="noopener"><em>&ldquo;Chasing Clouds with Donkeycar&rdquo;</em> (SC&rsquo;23)</a>, and into a wave of environmental-sensing projects <a href="https://blog.chameleoncloud.org/posts/chameleon-takes-flight-at-sc24-advancing-research-and-collaboration" target="_blank" rel="noopener">at SC&rsquo;24</a> &mdash; 5G measurement in rural Iowa, power-efficient weather stations, and a smart buoy for coastal ecosystems, all built on the IBIS edge framework &mdash; most recently reaching the autonomous bioacoustic wildlife-monitoring poster our summer students <a href="https://blog.chameleoncloud.org/posts/chameleon-at-sc25" target="_blank" rel="noopener">brought to SC25</a>.</p>
 
 <p>PEARC is always a great chance to meet the people behind the platform. If you caught Mike&rsquo;s talk, or are curious about running your own edge-to-cloud experiments, get started on the <a href="https://www.chameleoncloud.org/experiment/chiedge/" target="_blank" rel="noopener">CHI@Edge page</a>.</p>
+
+<p class="image-credit"><small><em>Header photo: <a href="https://commons.wikimedia.org/wiki/File:Columbus,_OH_-_GCCC_01.jpg" target="_blank" rel="noopener">Greater Columbus Convention Center</a> (PEARC&rsquo;25 venue) by &#x2C6F;, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> via Wikimedia Commons; resized.</em></small></p>
