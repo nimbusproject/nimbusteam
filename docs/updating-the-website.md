@@ -44,6 +44,10 @@ drafts locally, run `hugo server -D` (the `-D` includes drafts).
 
 ## Adding a news post
 
+> **New to this?** For a copy-and-fill-in walkthrough written for non-technical users,
+> see [New Blog Post Template](new-blog-post-template.md). The steps below are the quick
+> reference.
+
 1. Create a new file in `content/news/` named `YYYY-MM-DD-short-slug.md`
    (e.g. `2026-07-20-see-us-at-pearc26-in-minneapolis.md`). The date in the filename should
    match the `date` in the front matter.
