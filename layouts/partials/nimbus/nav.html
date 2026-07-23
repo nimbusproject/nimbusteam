@@ -3,7 +3,7 @@
     <ul class="nav-menu">
       {{ range .Site.Menus.main }}
       <li class="nav-item{{ if (eq $.RelPermalink .URL) }} current-menu-item{{ end }}">
-        <a href="{{ .URL }}"{{ if (eq $.RelPermalink .URL) }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        <a href="{{ .URL }}"{{ if (eq $.RelPermalink .URL) }} aria-current="page"{{ end }}><span class="link-before">{{ .Name }}</span></a>
       </li>
       {{ end }}
     </ul>

@@ -10,11 +10,13 @@
   --color-muted:       #6d6d6d;
   --color-border:      #eaecee;
   --color-bg:          #ffffff;
-  --color-box-bg:      #f5f7fb;
+  --color-box-bg:      #EFF3FC;
+  --color-box-text:    #5673A2;
   --color-button:      #235787;
-  --color-widget-title:#dd9933;
+  --color-widget-title:#848484;
   --max-width:         1240px;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* Original site used plain Arial via its "Simple Custom CSS" override */
+  --font-sans: Arial, Helvetica, sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -44,6 +46,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
+/* Original global heading sizes (from the theme + custom CSS) */
+h1 { font-size: 20px; }
+h2 { font-size: 1.2em; line-height: 1.216; font-weight: bold; text-align: left; }
+
 a {
   color: var(--color-link);
   text-decoration: none;
@@ -62,14 +68,14 @@ p { margin: 0 0 1rem; }
 
 /* Top row: logo floats on the sky background (nearly transparent) */
 .header-top {
-  background-color: rgba(30, 115, 190, 0.04);
+  background-color: rgba(30, 115, 190, 0.01);
 }
 
 .header-top .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 1.5rem;
+  padding: 22px 1.5rem 4px;
 }
 
 .site-brand { display: flex; align-items: center; text-decoration: none; }
@@ -80,12 +86,21 @@ p { margin: 0 0 1rem; }
 }
 
 .header-social a {
-  color: #5673a2;
-  opacity: 0.8;
-  transition: opacity 0.15s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: var(--color-nav-hover);
+  color: #fff;
+  transition: background-color 0.15s;
 }
 
-.header-social a:hover { opacity: 1; text-decoration: none; }
+.header-social a:hover {
+  background-color: var(--color-nav-active);
+  text-decoration: none;
+}
 
 /* Nav bar: full width of the site-frame white box */
 .header-nav {
@@ -111,33 +126,59 @@ p { margin: 0 0 1rem; }
 
 .nav-item a {
   display: block;
-  padding: 12px 16px;
-  color: rgba(255, 255, 255, 0.92);
-  font-size: 0.93rem;
-  font-weight: 500;
+  padding: 18px 16px;
+  /* Original dark-mode menu: dimmed white that reads as a slight grey */
+  color: rgba(255, 255, 255, 0.79);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   text-decoration: none;
-  border-bottom: 3px solid transparent;
-  transition: background 0.15s, border-color 0.15s;
+  transition: color 0.14s ease-out;
 }
 
-.nav-item a:hover {
-  background: rgba(0, 0, 0, 0.12);
-  color: #fff;
+/* Label wrapper carries the sliding underline (matches the word, not the padding) */
+.nav-item a .link-before {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-item a .link-before::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 1px;
+  height: 1px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  color: rgba(255, 255, 255, 0.99);
   text-decoration: none;
-  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Underline slides from a 1px sliver out to the full word width on hover/active */
+.nav-item a:hover .link-before::before,
+.nav-item a:focus .link-before::before,
+.nav-item.current-menu-item a .link-before::before {
+  width: 100%;
+  background-color: currentColor;
 }
 
 .nav-item.current-menu-item a {
-  background: var(--color-nav-active);
-  color: #fff;
-  border-bottom-color: #fff;
+  color: rgba(255, 255, 255, 0.99);
 }
 
 /* ── Site frame: nav + content + footer share one white box ─── */
 
 .site-frame {
   max-width: var(--max-width);
-  margin: 1rem auto 2rem;
+  margin: 0.25rem auto 2rem;
   background-color: var(--color-bg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
   min-height: 60vh;
@@ -157,9 +198,9 @@ p { margin: 0 0 1rem; }
   flex: 1;
   display: grid;
   grid-template-columns: 1fr 280px;
-  gap: 2.5rem;
+  gap: 3.75rem;
   align-items: start;
-  padding: 1.5rem 1.5rem 2rem;
+  padding: 1.75rem 3.75rem 3.25rem;
 }
 
 @media (max-width: 720px) {
@@ -169,39 +210,49 @@ p { margin: 0 0 1rem; }
 /* ── Home page ─────────────────────────────────────────────── */
 
 .home-content .box {
-  background: var(--color-box-bg);
-  border: 1px solid var(--color-border);
-  border-left: 4px solid var(--color-nav-bg);
-  border-radius: 3px;
-  padding: 1.1rem 1.4rem;
-  margin-bottom: 1.1rem;
+  background-color: var(--color-box-bg);
+  color: var(--color-box-text);
+  border: 2px double #ddd;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem;
+  margin: 1.5rem 0 20px;
 }
 
-.home-content .centered-text { text-align: center; }
-
-.home-content .bigger-text {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--color-heading);
-  margin: 0;
+.home-content .box h2 {
+  font-size: 1rem;
+  color: var(--color-box-text);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
 }
+
+.home-content .box a { color: var(--color-link); }
+
+.home-content .centered-text {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* .bigger-text was a no-op on the original site; keep it neutral */
+.home-content .bigger-text { margin: 0; }
 
 /* ── Sidebar ────────────────────────────────────────────────── */
 
 .site-sidebar {
-  background: var(--color-box-bg);
-  border: 1px solid var(--color-border);
-  padding: 1.1rem 1.2rem;
+  /* Thin vertical rule separating the main content from the News section */
+  border-left: 1px solid var(--color-border);
+  padding: 0.25rem 0 0.25rem 2.75rem;
 }
 
 .site-sidebar h2 {
-  font-size: 0.95rem;
-  color: var(--color-widget-title);
+  font-size: 1rem;
+  color: var(--color-nav-hover);
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.5px;
   margin-bottom: 0.75rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--color-border);
 }
 
 .sidebar-post-list {
@@ -211,11 +262,8 @@ p { margin: 0 0 1rem; }
 }
 
 .sidebar-post-list li {
-  border-bottom: 1px solid var(--color-border);
   padding: 0.5rem 0;
 }
-
-.sidebar-post-list li:last-child { border-bottom: none; }
 
 .sidebar-post-list a {
   font-size: 0.88rem;
@@ -240,7 +288,7 @@ p { margin: 0 0 1rem; }
 /* ── Single post ────────────────────────────────────────────── */
 
 .post-single {
-  max-width: 860px;
+  max-width: 1084px;
 }
 
 .post-title {
@@ -609,11 +657,13 @@ p { margin: 0 0 1rem; }
 /* ── Box / card styles from old site content ─────────────────── */
 
 .box.double-border {
-  background: var(--color-box-bg);
-  border: 1px solid var(--color-border);
-  border-left: 4px solid var(--color-nav-bg);
-  padding: 1.1rem 1.4rem;
-  margin-bottom: 1.1rem;
+  background-color: var(--color-box-bg);
+  color: var(--color-box-text);
+  border: 2px double #ddd;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem;
+  margin: 1.5rem 0 20px;
 }
 
 /* ── WordPress utility classes (from migrated content) ──────── */
