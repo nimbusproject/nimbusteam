@@ -5,7 +5,9 @@
   --color-nav-active:  #235787;
   --color-link:        #df6e01;
   --color-link-hover:  #1e73be;
-  --color-heading:     #df6e01;
+  /* Headings match the "Latest News" sidebar blue (--color-nav-hover);
+     orange (--color-link) stays the accent for links */
+  --color-heading:     #5673a2;
   --color-body:        #848484;
   --color-muted:       #6d6d6d;
   --color-border:      #eaecee;
@@ -312,8 +314,6 @@ p { margin: 0 0 1rem; }
 .post-content h2 {
   font-size: 1.35rem;
   margin-top: 1.75rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 1px solid var(--color-border);
 }
 
 .post-content h3 { font-size: 1.1rem; margin-top: 1.4rem; }
@@ -324,23 +324,18 @@ p { margin: 0 0 1rem; }
 
 .page-title {
   font-size: 1.8rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-border);
   margin-bottom: 1.5rem;
 }
 
 .post-list { display: flex; flex-direction: column; }
 
-/* Post item: side-by-side thumbnail + content, matching original */
-.post-item {
-  border-bottom: 1px solid var(--color-border);
-}
-
+/* Post item: side-by-side thumbnail + content, matching original.
+   Items are separated by whitespace rather than rules. */
 .entry-inner {
   display: flex;
   gap: 0;
   align-items: flex-start;
-  padding: 1.1rem 0;
+  padding: 1.4rem 0;
 }
 
 .entry-media {
@@ -526,19 +521,14 @@ p { margin: 0 0 1rem; }
   font-size: 1.3rem;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 2px solid var(--color-border);
 }
 
 .project-item {
   display: flex;
   gap: 1.25rem;
-  padding: 1.1rem 0;
-  border-bottom: 1px solid var(--color-border);
+  padding: 1.4rem 0;
   align-items: flex-start;
 }
-
-.project-item:last-child { border-bottom: none; }
 
 .project-logo {
   width: 80px;
